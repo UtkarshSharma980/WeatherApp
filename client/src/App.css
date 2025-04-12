@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  background-color: #0e66ea;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem;
+  max-height: 100vh;
+}
+
+.Loading,
+.Invalid {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #444;
+  margin-top: 2rem;
+}
+
+.Invalid {
+  color: #e63946;
+}

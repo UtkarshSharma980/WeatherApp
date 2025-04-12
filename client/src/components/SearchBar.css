@@ -1,0 +1,35 @@
+.Seach-Box {
+  display: flex;
+  gap: 0.2rem;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  max-width: 100%;
+}
+
+.Search-Input {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #f9f9f9;
+  width: 200px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.Search-Input:focus {
+  border-color: #060606;
+}
+
+.Search-Button {
+  padding: 12px;
+  background-color: #51dc0c;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.Search-Button:hover {
+  background-color: #74be4e;
+}
